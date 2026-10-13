@@ -59,3 +59,9 @@ Snapshots: `theme-v1.13/theme.liquid.before`, `.after`. No visible change expect
 Planned: replace contact line ("call +1 210-… / email waji82@… / 2046 Saxonhill Dr…") with "please email us at support@zalinbeauty.com." Before/after in `policies/privacy-policy.before.html` / `.after.html`.
 Blocked for Claude: `shopPolicyUpdate` needs `write_legal_policies` scope, which the Shopify connector does not have → owner edits manually in Settings → Policies.
 - [x] Done by owner 2026-10-13 14:08 (Central): privacy policy contact now "please email us at support@zalinbeauty.com." — verified no phone/address/yahoo in policy. Store email + contact email = support@zalinbeauty.com; store phone removed. Billing address (private, required by Shopify) unchanged — swap for PO Box later.
+
+## v1.14 — 2026-10-13 — Audit item 7: image alt text (product data only, no theme change)
+- Alt text set on all 75 product images of the 14 active products (fileUpdate). Format: product name; "– <color>" where Shopify links the image to a color variant; "– view N of M" otherwise. No claims, <125 chars.
+- Product names in alt text avoid "Therapy" (Under-Eye Red Light Massage Device, 7-Color LED Light Face Mask).
+- Snapshots: `v1.14-alt-text/alt-before.json` (all were empty), `alt-after.json`. Rollback: fileUpdate with alt "" from alt-before.json.
+- Not covered: draft products (Skin Tag device, 2 StoreBuilder blanks).
