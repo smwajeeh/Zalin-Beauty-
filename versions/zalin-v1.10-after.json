@@ -1,0 +1,17 @@
+{
+  "version": "v1.10",
+  "applied": "2026-10-13",
+  "collection": {
+    "id": "gid://shopify/Collection/356787945664",
+    "title": "Face & Skin Massagers",
+    "handle": "face-skin-massagers",
+    "image": {
+      "id": "gid://shopify/CollectionImage/1625776685248",
+      "url": "https://cdn.shopify.com/s/files/1/0773/2605/7664/collections/ChatGPT_Image_Aug_22_2026_04_01_07_PM.png?v=1791886313",
+      "altText": "Woman using the turquoise Microcurrent Facial Massager on her cheek",
+      "width": 1024,
+      "height": 1024,
+      "source": "Higgsfield gpt_image_2_5 job 69b3f1f8-e00c-428b-9f03-81c68dbc738a (owner picked option 2)"
+    }
+  }
+}

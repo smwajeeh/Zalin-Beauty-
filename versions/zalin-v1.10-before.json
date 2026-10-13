@@ -1,0 +1,22 @@
+{
+  "version": "v1.9 (state before v1.10)",
+  "captured": "2026-10-13",
+  "collection": {
+    "id": "gid://shopify/Collection/356787945664",
+    "title": "Face & Skin Massager",
+    "handle": "face-skin-massagers",
+    "descriptionHtml": "",
+    "image": {
+      "id": "gid://shopify/CollectionImage/1625776685248",
+      "url": "https://cdn.shopify.com/s/files/1/0773/2605/7664/collections/ChatGPT_Image_Aug_22_2026_04_01_07_PM.png?v=1787472431",
+      "altText": null,
+      "width": 1121,
+      "height": 986
+    },
+    "products": [
+      "Microcurrent Facial Massager – 3 Intensity Levels",
+      "Neck & Face LED Massage Device",
+      "4-in-1 Microcurrent & Ultrasonic Facial Device"
+    ]
+  }
+}
