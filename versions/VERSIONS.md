@@ -28,3 +28,5 @@ Preview: https://zalinbeauty.com/?preview_theme_id=159203197120
 Snapshot of original product template: `theme-v1.11/product.before.json`.
 
 - [x] Audit item 1 — `templates/product.json`: urgency block "HOT PRODUCT | LOW STOCK" set to `"disabled": true` (not deleted). Rollback: remove that line.
+- [x] Audit item 2, step 1 — default product template bundle box rewritten: £ and fake labels removed; Buy 1 standard / Buy 2 SAVE 10% (percentage 10) / Buy 3 SAVE 15% (percentage 15), badge "Best Value" on Buy 3. File: `theme-v1.11/product.after-item2-step1.json`.
+  - FOUND: theme box is display-only (schema note: "set up an automatic discount"). On LIVE v1.9 the $10/$20 off shown is NOT charged at checkout (except Brush Cleaner's real 2-pack). Fixed when the automatic discounts (step 4) exist and v1.11 is published.
