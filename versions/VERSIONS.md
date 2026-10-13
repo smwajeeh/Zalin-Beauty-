@@ -39,8 +39,8 @@ All: automatic, combine with shipping discounts only (not with each other → be
 - Existing gid://shopify/DiscountAutomaticNode/1468421701824 "2-Pack Deal" kept (2 = $69.95).
 Rollback: deactivate the three new IDs.
 
-## v1.12 — in progress (theme copy, NOT published)
+## v1.12 — PUBLISHED 2026-10-13 12:57 UTC (by owner)
 Theme copy: **ZALIN Beauty v1.12 (bundle page versions)** — gid://shopify/OnlineStoreTheme/159205851328, duplicated from live v1.11.
 - [x] templates/product.brush-cleaner.json (1 / 2 for $69.95 SAVE 12% / 3 for $99.95 SAVE 16%)
 - [x] templates/product.no-bundle.json (box off) for Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler
-- [ ] Assign product template suffixes when v1.12 is published
+- [x] Template suffixes assigned 2026-10-13: Brush Cleaner → `brush-cleaner`; Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler → `no-bundle`. Rollback: set templateSuffix to empty.
