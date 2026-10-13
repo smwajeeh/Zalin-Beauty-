@@ -58,3 +58,4 @@ Snapshots: `theme-v1.13/theme.liquid.before`, `.after`. No visible change expect
 ### Audit item 4 — privacy policy contact details (2026-10-13)
 Planned: replace contact line ("call +1 210-… / email waji82@… / 2046 Saxonhill Dr…") with "please email us at support@zalinbeauty.com." Before/after in `policies/privacy-policy.before.html` / `.after.html`.
 Blocked for Claude: `shopPolicyUpdate` needs `write_legal_policies` scope, which the Shopify connector does not have → owner edits manually in Settings → Policies.
+- [x] Done by owner 2026-10-13 14:08 (Central): privacy policy contact now "please email us at support@zalinbeauty.com." — verified no phone/address/yahoo in policy. Store email + contact email = support@zalinbeauty.com; store phone removed. Billing address (private, required by Shopify) unchanged — swap for PO Box later.
