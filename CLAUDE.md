@@ -10,7 +10,7 @@ Handoff written 2026-10-07 from the claude.ai project "Shopify Dropshipping Stor
 - **Bundles (real discounts, live):** "Bundle & Save: 10% off 2+" and "15% off 3+" on Microcurrent, 4-in-1, EMS V-Face, Pore Vacuum, Skin Scrubber, Dual-Use Curler, Cordless Curler; Brush Cleaner 2-Pack $69.95 (existing BXGY) + 3-Pack $99.95 ($19.90 off). Discounts don't combine with each other (best one applies), do combine with shipping.
 - **Product templates:** default = 10/15% box; `brush-cleaner` (Brush Cleaner); `no-bundle` (Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler). Theme box is display-only — any new bundle label needs a matching Shopify discount.
 - **Policies:** all 5 Shopify policies filled (refund/shipping/ToS/contact/privacy); contact = support@zalinbeauty.com only (no phone/address — owner's choice). Store email = support@zalinbeauty.com. Connector cannot write policies (`write_legal_policies` missing) — owner pastes.
-- **Audit progress:** done 1–7 (v1.14 = alt text). Next: 8 (rewrite 13 product descriptions). Then 9–24. Item 2 still needs owner's test order (2 Microcurrent = $53.91 free ship; 3 Brush Cleaners = $99.95), then refund.
+- **Audit progress:** done 1–8 (v1.14 = alt text, v1.15 = all 13 descriptions rewritten; old ones in versions/v1.15-descriptions/descriptions-before.json). Next: 9 ("Therapy" in 2 titles). Then 10–24. Item 2 still needs owner's test order (2 Microcurrent = $53.91 free ship; 3 Brush Cleaners = $99.95), then refund.
 - Lessons: owner may publish theme copies before steps finish — always re-check which theme is MAIN before writing; theme writes to MAIN are blocked. Large Shopify file reads can be forced to disk by bundling with sections/main-product.liquid.
 
 ## Who / what

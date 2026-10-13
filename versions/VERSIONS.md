@@ -71,5 +71,5 @@ Backup of ALL 14 active descriptions before any change: `v1.15-descriptions/desc
 Rule: only facts already in the supplier description; added general guidance marked ⚠️ in drafts; no results/health claims.
 - [x] Microcurrent Facial Massager (8693365506240) — `microcurrent.html`
 - [x] Dual-Use Hair Curler & Straightener (8693129052352) — `dual-use-curler.html`
-- [ ] Remaining 11 — drafts in `v1.15-descriptions/DRAFTS.md`, awaiting owner approval
+- [x] Remaining 11 applied 2026-10-13 (owner: "apply all 11") — exact HTML in `v1.15-descriptions/drafts-html.json`, review copy with fact sheets in `DRAFTS.md`. Brush Cleaner unchanged (v1.4 copy).
 Rollback per product: productUpdate descriptionHtml from descriptions-before.json.
