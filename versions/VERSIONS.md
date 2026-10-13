@@ -21,3 +21,10 @@ Earlier history (v1.0–v1.9) and snapshots live in the claude.ai project "Shopi
 **Rollback to v1.9:** `collectionUpdate` with title "Face & Skin Massager" and image src = the URL in `zalin-v1.10-before.json`, altText null. (Note: Shopify reused the same image file name, so the old version is only recoverable from a copy — the original AI image is also stored in Higgsfield as media e46318d0-e7a7-45c2-b57e-240c68caba8e.)
 
 **Live theme:** still ZALIN Beauty v1.9 (158995677376).
+
+## v1.11 — in progress (theme copy, NOT published yet)
+Theme copy: **ZALIN Beauty v1.11 (product page fixes)** — gid://shopify/OnlineStoreTheme/159203197120, duplicated from live v1.9 (158995677376) on 2026-10-13.
+Preview: https://zalinbeauty.com/?preview_theme_id=159203197120
+Snapshot of original product template: `theme-v1.11/product.before.json`.
+
+- [x] Audit item 1 — `templates/product.json`: urgency block "HOT PRODUCT | LOW STOCK" set to `"disabled": true` (not deleted). Rollback: remove that line.
