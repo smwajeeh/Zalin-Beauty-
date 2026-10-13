@@ -48,7 +48,7 @@ Theme copy: **ZALIN Beauty v1.12 (bundle page versions)** — gid://shopify/Onli
 ### Audit item 3 — theme license (2026-10-13)
 Owner bought own Shrine license ($149, 1 store) and saved the token in Theme settings → Authentication (setting id `fav_collection`) at 13:46 UTC. Old key from other stores remains as unused leftover `auth_token` (not in settings_schema).
 
-## v1.13 — in progress (theme copy, NOT published)
+## v1.13 — PUBLISHED 2026-10-13 13:59 UTC (by owner, after preview check)
 Theme copy: **ZALIN Beauty v1.13 (remove other store's tracking)** — gid://shopify/OnlineStoreTheme/159207293120, duplicated from live v1.12.
 Only `layout/theme.liquid` changed (verified: every other file checksum identical to live). Removed:
 - Triple Whale "TriplePixel" script configured for **puralens.myshopify.com** (another store) + 3 preconnect links (config-security.com, whale.camera) — was sending visitor data to that store's account and eval'ing remote code.
