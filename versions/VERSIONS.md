@@ -22,7 +22,7 @@ Earlier history (v1.0–v1.9) and snapshots live in the claude.ai project "Shopi
 
 **Live theme:** still ZALIN Beauty v1.9 (158995677376).
 
-## v1.11 — in progress (theme copy, NOT published yet)
+## v1.11 — PUBLISHED 2026-10-13 11:56 UTC (by owner)
 Theme copy: **ZALIN Beauty v1.11 (product page fixes)** — gid://shopify/OnlineStoreTheme/159203197120, duplicated from live v1.9 (158995677376) on 2026-10-13.
 Preview: https://zalinbeauty.com/?preview_theme_id=159203197120
 Snapshot of original product template: `theme-v1.11/product.before.json`.
@@ -30,3 +30,17 @@ Snapshot of original product template: `theme-v1.11/product.before.json`.
 - [x] Audit item 1 — `templates/product.json`: urgency block "HOT PRODUCT | LOW STOCK" set to `"disabled": true` (not deleted). Rollback: remove that line.
 - [x] Audit item 2, step 1 — default product template bundle box rewritten: £ and fake labels removed; Buy 1 standard / Buy 2 SAVE 10% (percentage 10) / Buy 3 SAVE 15% (percentage 15), badge "Best Value" on Buy 3. File: `theme-v1.11/product.after-item2-step1.json`.
   - FOUND: theme box is display-only (schema note: "set up an automatic discount"). On LIVE v1.9 the $10/$20 off shown is NOT charged at checkout (except Brush Cleaner's real 2-pack). Fixed when the automatic discounts (step 4) exist and v1.11 is published.
+
+### Discounts created 2026-10-13 (live immediately)
+All: automatic, combine with shipping discounts only (not with each other → best single discount applies).
+- gid://shopify/DiscountAutomaticNode/1469829152960 — "Bundle & Save: 10% off 2+" (min qty 2) — Microcurrent, 4-in-1, EMS V-Face, Pore Vacuum, Skin Scrubber, Dual-Use Curler, Cordless Curler.
+- gid://shopify/DiscountAutomaticNode/1469829185728 — "Bundle & Save: 15% off 3+" (min qty 3) — same 7 products.
+- gid://shopify/DiscountAutomaticNode/1469829218496 — "3-Pack Deal: 3 Brush Cleaners for $99.95" ($19.90 off once, min qty 3).
+- Existing gid://shopify/DiscountAutomaticNode/1468421701824 "2-Pack Deal" kept (2 = $69.95).
+Rollback: deactivate the three new IDs.
+
+## v1.12 — in progress (theme copy, NOT published)
+Theme copy: **ZALIN Beauty v1.12 (bundle page versions)** — gid://shopify/OnlineStoreTheme/159205851328, duplicated from live v1.11.
+- [ ] templates/product.brush-cleaner.json (1 / 2 for $69.95 SAVE 12% / 3 for $99.95 SAVE 16%)
+- [ ] templates/product.no-bundle.json (box off) for Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler
+- [ ] Assign product template suffixes when v1.12 is published
