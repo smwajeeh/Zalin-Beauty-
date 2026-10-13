@@ -44,3 +44,13 @@ Theme copy: **ZALIN Beauty v1.12 (bundle page versions)** — gid://shopify/Onli
 - [x] templates/product.brush-cleaner.json (1 / 2 for $69.95 SAVE 12% / 3 for $99.95 SAVE 16%)
 - [x] templates/product.no-bundle.json (box off) for Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler
 - [x] Template suffixes assigned 2026-10-13: Brush Cleaner → `brush-cleaner`; Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler → `no-bundle`. Rollback: set templateSuffix to empty.
+
+### Audit item 3 — theme license (2026-10-13)
+Owner bought own Shrine license ($149, 1 store) and saved the token in Theme settings → Authentication (setting id `fav_collection`) at 13:46 UTC. Old key from other stores remains as unused leftover `auth_token` (not in settings_schema).
+
+## v1.13 — in progress (theme copy, NOT published)
+Theme copy: **ZALIN Beauty v1.13 (remove other store's tracking)** — gid://shopify/OnlineStoreTheme/159207293120, duplicated from live v1.12.
+Only `layout/theme.liquid` changed (verified: every other file checksum identical to live). Removed:
+- Triple Whale "TriplePixel" script configured for **puralens.myshopify.com** (another store) + 3 preconnect links (config-security.com, whale.camera) — was sending visitor data to that store's account and eval'ing remote code.
+- `{% include 'kiwiSizing' %}` (unused app config) and `{% include 'bucks-cc' %}` (inactive currency converter configured for 088f7b.myshopify.com).
+Snapshots: `theme-v1.13/theme.liquid.before`, `.after`. No visible change expected.
