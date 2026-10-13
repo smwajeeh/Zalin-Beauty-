@@ -54,3 +54,7 @@ Only `layout/theme.liquid` changed (verified: every other file checksum identica
 - Triple Whale "TriplePixel" script configured for **puralens.myshopify.com** (another store) + 3 preconnect links (config-security.com, whale.camera) — was sending visitor data to that store's account and eval'ing remote code.
 - `{% include 'kiwiSizing' %}` (unused app config) and `{% include 'bucks-cc' %}` (inactive currency converter configured for 088f7b.myshopify.com).
 Snapshots: `theme-v1.13/theme.liquid.before`, `.after`. No visible change expected.
+
+### Audit item 4 — privacy policy contact details (2026-10-13)
+Planned: replace contact line ("call +1 210-… / email waji82@… / 2046 Saxonhill Dr…") with "please email us at support@zalinbeauty.com." Before/after in `policies/privacy-policy.before.html` / `.after.html`.
+Blocked for Claude: `shopPolicyUpdate` needs `write_legal_policies` scope, which the Shopify connector does not have → owner edits manually in Settings → Policies.
