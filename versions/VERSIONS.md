@@ -65,3 +65,11 @@ Blocked for Claude: `shopPolicyUpdate` needs `write_legal_policies` scope, which
 - Product names in alt text avoid "Therapy" (Under-Eye Red Light Massage Device, 7-Color LED Light Face Mask).
 - Snapshots: `v1.14-alt-text/alt-before.json` (all were empty), `alt-after.json`. Rollback: fileUpdate with alt "" from alt-before.json.
 - Not covered: draft products (Skin Tag device, 2 StoreBuilder blanks).
+
+## v1.15 — 2026-10-13 — Audit item 8: product descriptions (product data only)
+Backup of ALL 14 active descriptions before any change: `v1.15-descriptions/descriptions-before.json`.
+Rule: only facts already in the supplier description; added general guidance marked ⚠️ in drafts; no results/health claims.
+- [x] Microcurrent Facial Massager (8693365506240) — `microcurrent.html`
+- [x] Dual-Use Hair Curler & Straightener (8693129052352) — `dual-use-curler.html`
+- [ ] Remaining 11 — drafts in `v1.15-descriptions/DRAFTS.md`, awaiting owner approval
+Rollback per product: productUpdate descriptionHtml from descriptions-before.json.
