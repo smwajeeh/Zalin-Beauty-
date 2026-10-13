@@ -2,6 +2,17 @@
 
 Handoff written 2026-10-07 from the claude.ai project "Shopify Dropshipping Store". Read this whole file before doing anything.
 
+
+## UPDATE 2026-10-13 — read this first (supersedes "Current live state: v1.9" below)
+- **Live theme: ZALIN Beauty v1.13 (remove other store's tracking)** — gid://shopify/OnlineStoreTheme/159207293120. Backups: v1.12 (159205851328), v1.11 (159203197120), v1.9 (158995677376). Full log: `versions/VERSIONS.md`. Audit list: `versions/AUDIT-2026-10-13.md` (24 items).
+- **Domain:** zalinbeauty.com is primary (SSL on). Permanent: j2xizj-0q.myshopify.com.
+- **Shrine license:** owner bought own license ($149, 1 store); token is in theme setting `fav_collection` ("Authentication token"). Old other-store key `auth_token` is an unused leftover.
+- **Bundles (real discounts, live):** "Bundle & Save: 10% off 2+" and "15% off 3+" on Microcurrent, 4-in-1, EMS V-Face, Pore Vacuum, Skin Scrubber, Dual-Use Curler, Cordless Curler; Brush Cleaner 2-Pack $69.95 (existing BXGY) + 3-Pack $99.95 ($19.90 off). Discounts don't combine with each other (best one applies), do combine with shipping.
+- **Product templates:** default = 10/15% box; `brush-cleaner` (Brush Cleaner); `no-bundle` (Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler). Theme box is display-only — any new bundle label needs a matching Shopify discount.
+- **Policies:** all 5 Shopify policies filled (refund/shipping/ToS/contact/privacy); contact = support@zalinbeauty.com only (no phone/address — owner's choice). Store email = support@zalinbeauty.com. Connector cannot write policies (`write_legal_policies` missing) — owner pastes.
+- **Audit progress:** done 1–6. Next: 7 (alt text, ~80 images) — owner paused here. Then 8–24. Item 2 still needs owner's test order (2 Microcurrent = $53.91 free ship; 3 Brush Cleaners = $99.95), then refund.
+- Lessons: owner may publish theme copies before steps finish — always re-check which theme is MAIN before writing; theme writes to MAIN are blocked. Large Shopify file reads can be forced to disk by bundling with sections/main-product.liquid.
+
 ## Who / what
 - Owner: runs **ZALIN Beauty**, a Shopify dropshipping store for beauty gadgets (zalin-beauty.myshopify.com, Shopify Basic plan, USD, US-based, Central time).
 - Supplier: **Zendrop** (each product has a `custom.zendrop_import_id` metafield; Zendrop owns the "Zendrop" delivery profile).
