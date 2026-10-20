@@ -128,3 +128,8 @@ Rollback: urlRedirectUpdate target back to /products/microcurrent-facial-beauty-
 ## v1.24 — 2026-10-20 — Audit item 17: footer Privacy Policy link
 - Footer menu (247830151360) item "Privacy Policy" (609795145920): PAGE /pages/privacy-policy → SHOP_POLICY /policies/privacy-policy (official policy 42140369088). Label, order, other 4 items unchanged. Old custom page kept (not deleted). Theme untouched (MAIN updatedAt unchanged).
 Before snapshot: versions/v1.24-footer/footer-menu-before.json. Rollback: menuUpdate with that item back to type PAGE, resourceId gid://shopify/Page/124566929600.
+
+## v1.25 — 2026-10-20 — Audit item 18: footer Terms link
+- Footer menu item "Terms & Conditions" (609881882816): PAGE /pages/terms-amp-conditions → SHOP_POLICY /policies/terms-of-service (44377571520). Custom page kept. Theme untouched (MAIN updatedAt unchanged).
+- Optional owner paste later: official ToS has raw URLs (with stray <meta charset>) instead of links, and one "customs" mention.
+Rollback: menuUpdate item back to type PAGE, resourceId gid://shopify/Page/124620275904.
