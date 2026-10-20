@@ -98,3 +98,8 @@ Rollback: set SEO title back to empty.
 - Pore Vacuum (8693414232256) added to Personal Care (356784898240) → now 5 products.
 - Straightener Brush (8693356036288) added to Beauty Accessories (356785193152) → now 6 products.
 Rollback: collectionRemoveProducts for each.
+
+## v1.20 — 2026-10-20 — Audit item 13: EMS V-Face in the right category
+- EMS Compact V-Face Massager (8693040513216) added to Face & Skin Massagers (356787945664) → now 4 products.
+- Removed from Beauty Accessories (356785193152) → now 5 products.
+Rollback: collectionAddProducts to Beauty Accessories, collectionRemoveProducts from Face & Skin Massagers.
