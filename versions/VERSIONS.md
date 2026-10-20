@@ -103,3 +103,9 @@ Rollback: collectionRemoveProducts for each.
 - EMS Compact V-Face Massager (8693040513216) added to Face & Skin Massagers (356787945664) → now 4 products.
 - Removed from Beauty Accessories (356785193152) → now 5 products.
 Rollback: collectionAddProducts to Beauty Accessories, collectionRemoveProducts from Face & Skin Massagers.
+
+## v1.21 — 2026-10-20 — Audit item 14: clearer collection names
+- "Beauty Accessories" (356785193152) → "Hair & Makeup Tools" (handle beauty-tools unchanged).
+- "Personal Care" (356784898240) → "Skin & Body Care" (handle personal-care unchanged).
+- Menus link "Shop By Category" (/collections), not individual collections — no menu change needed. Homepage tiles pull the title automatically. Homepage section headings "Beauty & Hair Tools" / "Skincare Devices" are separate theme text (left as is).
+Rollback: collectionUpdate titles back to "Beauty Accessories" / "Personal Care".
