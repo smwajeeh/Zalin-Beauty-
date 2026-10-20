@@ -73,3 +73,10 @@ Rule: only facts already in the supplier description; added general guidance mar
 - [x] Dual-Use Hair Curler & Straightener (8693129052352) — `dual-use-curler.html`
 - [x] Remaining 11 applied 2026-10-13 (owner: "apply all 11") — exact HTML in `v1.15-descriptions/drafts-html.json`, review copy with fact sheets in `DRAFTS.md`. Brush Cleaner unchanged (v1.4 copy).
 Rollback per product: productUpdate descriptionHtml from descriptions-before.json.
+
+## v1.16 — 2026-10-20 — Audit item 9: remove "Therapy" from 2 titles (titles only)
+- 8693337030848: title "7-Color Red Light Therapy Face Mask" → "7-Color LED Light Face Mask"; SEO title "7-Color Red Light Therapy Face Mask | Rechargeable" → "7-Color LED Light Face Mask | Rechargeable".
+- 8693284307136: title "Under-Eye Red Light Therapy & Massage Device" → "Under-Eye Red Light Massage Device" (SEO title was empty, unchanged).
+- Handles/URLs unchanged. Descriptions, prices, images, SEO descriptions untouched (owner: "don't change the context").
+- Note: Under-Eye SEO description still contains "red light therapy" — left as is, flagged to owner.
+Rollback: set the old titles above.
