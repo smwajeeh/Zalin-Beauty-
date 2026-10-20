@@ -124,3 +124,7 @@ Rollback: don't publish the copy (or re-publish v1.17).
 ## v1.23 — 2026-10-20 — Audit item 16: redirect chain
 - Redirect 443846623424 /products/microcurrent-beauty-device-for-skin-rejuvenation-and-firming: target /products/microcurrent-facial-beauty-device-1 → /products/microcurrent-facial-massager (one hop). Middle redirect kept. No other chains among the 14 redirects. Theme untouched (MAIN updatedAt unchanged).
 Rollback: urlRedirectUpdate target back to /products/microcurrent-facial-beauty-device-1.
+
+## v1.24 — 2026-10-20 — Audit item 17: footer Privacy Policy link
+- Footer menu (247830151360) item "Privacy Policy" (609795145920): PAGE /pages/privacy-policy → SHOP_POLICY /policies/privacy-policy (official policy 42140369088). Label, order, other 4 items unchanged. Old custom page kept (not deleted). Theme untouched (MAIN updatedAt unchanged).
+Before snapshot: versions/v1.24-footer/footer-menu-before.json. Rollback: menuUpdate with that item back to type PAGE, resourceId gid://shopify/Page/124566929600.

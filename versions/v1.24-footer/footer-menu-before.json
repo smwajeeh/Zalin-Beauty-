@@ -1,0 +1,6 @@
+{"id":"gid://shopify/Menu/247830151360","title":"Footer menu","handle":"footer","items":[
+{"id":"gid://shopify/MenuItem/609795113152","title":"About Us","type":"PAGE","resourceId":"gid://shopify/Page/124600615104","url":"/pages/about-us"},
+{"id":"gid://shopify/MenuItem/609795145920","title":"Privacy Policy","type":"PAGE","resourceId":"gid://shopify/Page/124566929600","url":"/pages/privacy-policy"},
+{"id":"gid://shopify/MenuItem/609795178688","title":"Returns & Refunds","type":"PAGE","resourceId":"gid://shopify/Page/124565913792","url":"/pages/returns-refunds"},
+{"id":"gid://shopify/MenuItem/609795211456","title":"Shipping & Delivery","type":"PAGE","resourceId":"gid://shopify/Page/124565782720","url":"/pages/shipping-delivery"},
+{"id":"gid://shopify/MenuItem/609881882816","title":"Terms & Conditions","type":"PAGE","resourceId":"gid://shopify/Page/124620275904","url":"/pages/terms-amp-conditions"}]}
