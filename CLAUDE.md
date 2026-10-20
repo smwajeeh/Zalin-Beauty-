@@ -4,7 +4,7 @@ Handoff written 2026-10-07 from the claude.ai project "Shopify Dropshipping Stor
 
 
 ## UPDATE 2026-10-13 — read this first (supersedes "Current live state: v1.9" below)
-- **Live theme: ZALIN Beauty v1.22 PREVIEW (polish)** — gid://shopify/OnlineStoreTheme/159465439424 (published by owner 2026-10-20). Backups: v1.17 (159464784064), v1.13 (159207293120), v1.12 (159205851328), v1.11 (159203197120), v1.9 (158995677376). Full log: `versions/VERSIONS.md`. Audit list: `versions/AUDIT-2026-10-13.md` (24 items).
+- **Live theme: ZALIN Beauty v1.22 (polish)** (renamed by owner, was "v1.22 PREVIEW (polish)") — gid://shopify/OnlineStoreTheme/159465439424 (published by owner 2026-10-20). Backups: v1.17 (159464784064), v1.13 (159207293120), v1.12 (159205851328), v1.11 (159203197120), v1.9 (158995677376). Full log: `versions/VERSIONS.md`. Audit list: `versions/AUDIT-2026-10-13.md` (24 items).
 - **Domain:** zalinbeauty.com is primary (SSL on). Permanent: j2xizj-0q.myshopify.com.
 - **Shrine license:** owner bought own license ($149, 1 store); token is in theme setting `fav_collection` ("Authentication token"). Old other-store key `auth_token` is an unused leftover.
 - **Bundles (real discounts, live):** "Bundle & Save: 10% off 2+" and "15% off 3+" on Microcurrent, 4-in-1, EMS V-Face, Pore Vacuum, Skin Scrubber, Dual-Use Curler, Cordless Curler; Brush Cleaner 2-Pack $69.95 (existing BXGY) + 3-Pack $99.95 ($19.90 off). Discounts don't combine with each other (best one applies), do combine with shipping.
