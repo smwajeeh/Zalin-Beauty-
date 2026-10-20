@@ -120,3 +120,7 @@ Theme copy "ZALIN Beauty v1.22 PREVIEW (polish)" gid://shopify/OnlineStoreTheme/
 Files: versions/theme-v1.22/ (before/after for index, collection, cart; settings_data diff only — full file holds license token, kept out of git).
 Rollback: don't publish the copy (or re-publish v1.17).
 - 2026-10-20: owner published v1.22 PREVIEW (polish) — now MAIN. Previous live v1.17 (159464784064) kept as backup. Rollback: publish v1.17.
+
+## v1.23 — 2026-10-20 — Audit item 16: redirect chain
+- Redirect 443846623424 /products/microcurrent-beauty-device-for-skin-rejuvenation-and-firming: target /products/microcurrent-facial-beauty-device-1 → /products/microcurrent-facial-massager (one hop). Middle redirect kept. No other chains among the 14 redirects. Theme untouched (MAIN updatedAt unchanged).
+Rollback: urlRedirectUpdate target back to /products/microcurrent-facial-beauty-device-1.
