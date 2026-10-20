@@ -78,6 +78,7 @@ Theme is "Shrine" (Dawn-based).
 Top bar "Free US shipping on orders $50+ | 2 Brush Cleaners for $69.95" → trust bar (4 promises) → new clean AI banner `zalin-home-banner-v1-7.png` with live text "Beauty, Simplified" (styling in hidden `custom-liquid` section `banner_style_css`) → intro → collection tiles → featured Brush Cleaner → "Beauty & Hair Tools" → image-with-text → "Skincare Devices" → rich text → FAQs → footer. Header: logo 210px desktop, 150px mobile. Fake testimonials, "supplements" video and misleading comparison table were removed.
 
 ## Ads plan (Phase 1) — not started
+- **2026-10-20 owner decision:** owner will NOT film. Ad videos to be AI-made (Higgsfield) from real product photos. Rules: product must look exactly like the real one; label as AI where platforms require; no AI people posing as customers/testimonials, no results claims. Owner is new to ads — teach step by step (Meta first, TikTok later).
 Plan doc: https://claude.ai/code/artifact/58dd6880-1ce0-4057-8824-b1d359512caa ("ZALIN Beauty — Brush Cleaner Meta Ads Plan (Phase 1)").
 - Budget **under $1,000** first month → **Meta only**, one hero (Brush Cleaner). ~$30/day weeks 1–2, $30–45/day weeks 3–4 on winners, ~$100 reserve.
 - 1 campaign (Sales, Purchase event), 1 ad set (US, women 18–54, broad, Advantage+ placements), 5 ads = 5 scripts (gross reveal, time back, satisfying, gift/2-pack, honest review). Ad names `BC_<angle>_<hook>_v1`; UTMs `utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}`.
