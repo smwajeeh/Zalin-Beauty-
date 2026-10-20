@@ -119,3 +119,4 @@ Theme copy "ZALIN Beauty v1.22 PREVIEW (polish)" gid://shopify/OnlineStoreTheme/
 - 24 cart.json: "Subscribe to our emails" section and empty AliReviews app section disabled.
 Files: versions/theme-v1.22/ (before/after for index, collection, cart; settings_data diff only — full file holds license token, kept out of git).
 Rollback: don't publish the copy (or re-publish v1.17).
+- 2026-10-20: owner published v1.22 PREVIEW (polish) — now MAIN. Previous live v1.17 (159464784064) kept as backup. Rollback: publish v1.17.
