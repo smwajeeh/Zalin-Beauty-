@@ -88,3 +88,8 @@ Changed in all 3 product templates (product, product.brush-cleaner, product.no-b
 - title block `uppercase_title`: true → false (titles in normal case)
 - "Description" collapsible tab → disabled; built-in `description` block → enabled (description shown open, below payment badges)
 Snapshots: `theme-v1.17/*.before` / `*.after`.
+
+## v1.18 — 2026-10-20 — Audit item 11: missing SEO titles
+- Under-Eye (8693284307136): SEO title (empty) → "Under-Eye Red Light Massage Device | Gentle Vibration"
+- Pore Vacuum (8693414232256): SEO title (empty) → "Rechargeable Pore Vacuum Cleanser | 5 Interchangeable Heads"
+Rollback: set SEO title back to empty.
