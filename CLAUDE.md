@@ -4,13 +4,13 @@ Handoff written 2026-10-07 from the claude.ai project "Shopify Dropshipping Stor
 
 
 ## UPDATE 2026-10-13 — read this first (supersedes "Current live state: v1.9" below)
-- **Live theme: ZALIN Beauty v1.13 (remove other store's tracking)** — gid://shopify/OnlineStoreTheme/159207293120. Backups: v1.12 (159205851328), v1.11 (159203197120), v1.9 (158995677376). Full log: `versions/VERSIONS.md`. Audit list: `versions/AUDIT-2026-10-13.md` (24 items).
+- **Live theme: ZALIN Beauty v1.17 (readable titles, open description)** — gid://shopify/OnlineStoreTheme/159464784064. Backups: v1.13 (159207293120), v1.12 (159205851328), v1.11 (159203197120), v1.9 (158995677376). Full log: `versions/VERSIONS.md`. Audit list: `versions/AUDIT-2026-10-13.md` (24 items).
 - **Domain:** zalinbeauty.com is primary (SSL on). Permanent: j2xizj-0q.myshopify.com.
 - **Shrine license:** owner bought own license ($149, 1 store); token is in theme setting `fav_collection` ("Authentication token"). Old other-store key `auth_token` is an unused leftover.
 - **Bundles (real discounts, live):** "Bundle & Save: 10% off 2+" and "15% off 3+" on Microcurrent, 4-in-1, EMS V-Face, Pore Vacuum, Skin Scrubber, Dual-Use Curler, Cordless Curler; Brush Cleaner 2-Pack $69.95 (existing BXGY) + 3-Pack $99.95 ($19.90 off). Discounts don't combine with each other (best one applies), do combine with shipping.
 - **Product templates:** default = 10/15% box; `brush-cleaner` (Brush Cleaner); `no-bundle` (Under-Eye, Neck & Face, Straightener Brush, Body Massager, Red Light Mask, Eyelash Curler). Theme box is display-only — any new bundle label needs a matching Shopify discount.
 - **Policies:** all 5 Shopify policies filled (refund/shipping/ToS/contact/privacy); contact = support@zalinbeauty.com only (no phone/address — owner's choice). Store email = support@zalinbeauty.com. Connector cannot write policies (`write_legal_policies` missing) — owner pastes.
-- **Audit progress:** done 1–8 (v1.14 = alt text, v1.15 = all 13 descriptions rewritten; old ones in versions/v1.15-descriptions/descriptions-before.json). Item 9 done (v1.16). Next: 10 (ALL CAPS titles + hidden description tab — theme copy needed). Then 11–24. Item 2 still needs owner's test order (2 Microcurrent = $53.91 free ship; 3 Brush Cleaners = $99.95), then refund.
+- **Audit progress:** done 1–8 (v1.14 = alt text, v1.15 = all 13 descriptions rewritten; old ones in versions/v1.15-descriptions/descriptions-before.json). Items 9 (v1.16) and 10 (v1.17) done. Next: 11 (missing SEO titles: Under-Eye, Pore Vacuum). Then 12–24. Item 2 still needs owner's test order (2 Microcurrent = $53.91 free ship; 3 Brush Cleaners = $99.95), then refund.
 - Lessons: owner may publish theme copies before steps finish — always re-check which theme is MAIN before writing; theme writes to MAIN are blocked. Large Shopify file reads can be forced to disk by bundling with sections/main-product.liquid.
 
 ## Who / what

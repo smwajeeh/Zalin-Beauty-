@@ -82,7 +82,7 @@ Rollback per product: productUpdate descriptionHtml from descriptions-before.jso
 Rollback: set the old titles above.
 - 2026-10-20 add-on: Under-Eye SEO description "…under-eye red light therapy and massage device…" → "…under-eye red light and massage device…" (owner approved).
 
-## v1.17 — in progress (theme copy, NOT published) — Audit item 10
+## v1.17 — PUBLISHED 2026-10-20 03:55 UTC (by owner) — Audit item 10
 Theme copy: **ZALIN Beauty v1.17 (readable titles, open description)** — gid://shopify/OnlineStoreTheme/159464784064, duplicated from live v1.13.
 Changed in all 3 product templates (product, product.brush-cleaner, product.no-bundle):
 - title block `uppercase_title`: true → false (titles in normal case)
