@@ -1,0 +1,13 @@
+13c13
+<     "disable_inspect": true,
+---
+>     "disable_inspect": false,
+144c144,145
+<     "enable_cart_progress_bar": false,
+---
+>     "enable_cart_progress_bar": true,
+>     "cart_progress_threshold": "50",
+146c147
+<     "cart_progress_success_message": "Congrats! You get FREE shipping! 🎉",
+---
+>     "cart_progress_success_message": "You've unlocked FREE US shipping!",

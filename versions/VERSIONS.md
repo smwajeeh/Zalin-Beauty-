@@ -109,3 +109,13 @@ Rollback: collectionAddProducts to Beauty Accessories, collectionRemoveProducts 
 - "Personal Care" (356784898240) → "Skin & Body Care" (handle personal-care unchanged).
 - Menus link "Shop By Category" (/collections), not individual collections — no menu change needed. Homepage tiles pull the title automatically. Homepage section headings "Beauty & Hair Tools" / "Skincare Devices" are separate theme text (left as is).
 Rollback: collectionUpdate titles back to "Beauty Accessories" / "Personal Care".
+
+## v1.22 PREVIEW — 2026-10-20 — Audit items 15, 21–24 (theme copy, NOT live)
+Theme copy "ZALIN Beauty v1.22 PREVIEW (polish)" gid://shopify/OnlineStoreTheme/159465439424, duplicated from live v1.17 (159464784064). Live theme untouched (checksums verified).
+- 15 collection.json: collection banner enabled (name only; collection image off).
+- 21 index.json: "BEAUTY CARE MADE SIMPLE" → "Simple Tools for Every Routine"; its "Shop By Category" button → /collections (was /collections/all); section headings "Skincare Devices" → "Skin & Body Care", "Beauty & Hair Tools" → "Hair & Makeup Tools"; FAQ answers 3–5 rewritten with real info (support email, 30-day / 7-day terms from the refund policy).
+- 22 settings_data: cart progress bar ON, goal $50, success text "You've unlocked FREE US shipping!".
+- 23 settings_data: disable_inspect → false (right-click works again).
+- 24 cart.json: "Subscribe to our emails" section and empty AliReviews app section disabled.
+Files: versions/theme-v1.22/ (before/after for index, collection, cart; settings_data diff only — full file holds license token, kept out of git).
+Rollback: don't publish the copy (or re-publish v1.17).
