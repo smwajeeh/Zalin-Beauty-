@@ -139,3 +139,9 @@ Rollback: menuUpdate item back to type PAGE, resourceId gid://shopify/Page/12462
 - Footer "Shipping & Delivery" (609795211456): PAGE /pages/shipping-delivery → SHOP_POLICY /policies/shipping-policy (44377538752) (owner: "fix them").
 - All 4 policy links in the footer now go to the official Shopify policies. Custom pages kept. Theme untouched.
 Rollback: menuUpdate items back to PAGE 124565913792 / 124565782720 (see versions/v1.24-footer/footer-menu-before.json).
+
+## v1.27 — 2026-10-20 — Audit item 20: footer Contact link + About Us text
+- Footer menu: added "Contact Us" (646342934720) → /pages/contact as last item.
+- About Us page (124600615104): original 2 paragraphs kept verbatim; added "What you can expect from us" (4 bullets from policies) and "Honest about what we sell". Before: versions/v1.27-about/about-before.html.
+- Theme untouched (MAIN updatedAt unchanged). AUDIT COMPLETE: all 24 items done.
+Rollback: pageUpdate body from about-before.html; menuUpdate without the Contact Us item.
