@@ -93,3 +93,8 @@ Snapshots: `theme-v1.17/*.before` / `*.after`.
 - Under-Eye (8693284307136): SEO title (empty) → "Under-Eye Red Light Massage Device | Gentle Vibration"
 - Pore Vacuum (8693414232256): SEO title (empty) → "Rechargeable Pore Vacuum Cleanser | 5 Interchangeable Heads"
 Rollback: set SEO title back to empty.
+
+## v1.19 — 2026-10-20 — Audit item 12: uncategorized products
+- Pore Vacuum (8693414232256) added to Personal Care (356784898240) → now 5 products.
+- Straightener Brush (8693356036288) added to Beauty Accessories (356785193152) → now 6 products.
+Rollback: collectionRemoveProducts for each.
