@@ -145,3 +145,8 @@ Rollback: menuUpdate items back to PAGE 124565913792 / 124565782720 (see version
 - About Us page (124600615104): original 2 paragraphs kept verbatim; added "What you can expect from us" (4 bullets from policies) and "Honest about what we sell". Before: versions/v1.27-about/about-before.html.
 - Theme untouched (MAIN updatedAt unchanged). AUDIT COMPLETE: all 24 items done.
 Rollback: pageUpdate body from about-before.html; menuUpdate without the Contact Us item.
+
+## v1.28 — 2026-10-20 — Terms of Service polish (owner pasted in Settings → Policies)
+- ToS (updated 2026-10-20 00:05 CT): 4 raw URLs → real links (/policies/privacy-policy ×3, /policies/refund-policy); "customs" removed from Sections 4 and 5; Section 4 now ends "Unless otherwise expressly stated, posted prices do not include taxes or shipping charges." Verified by read-back; Section 10 "here" link fixed (was %20-prefixed).
+- Left as is (invisible/harmless): 2 empty <a> tags in Overview, one <meta charset> in Section 22.
+- Other 4 policies unchanged (updatedAt 2026-10-13). Draft reference: versions/policies/terms_of_service.v1.28.html. Previous text: versions/policies/terms_of_service.live.html.
