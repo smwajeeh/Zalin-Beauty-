@@ -79,6 +79,8 @@ Top bar "Free US shipping on orders $50+ | 2 Brush Cleaners for $69.95" → trus
 
 ## Ads plan (Phase 1) — not started
 - **2026-10-20 owner decision:** owner will NOT film. Ad videos to be AI-made (Higgsfield) from real product photos. Rules: product must look exactly like the real one; label as AI where platforms require; no AI people posing as customers/testimonials, no results claims. Owner is new to ads — teach step by step (Meta first, TikTok later).
+- **2026-10-20 BLOCKER found:** Brush Cleaner photos show a countertop auto cleaner + air dryer (5-min clean cycle, 2H/5H timed drying, touch buttons, purple light); the live description (since v1.4) describes a handheld spinner (collars, cup of water, built-in battery). Owner must confirm in Zendrop which device ships; fix description (preview first) before any ads. Never claim UV/sterilizing/bacteria.
+- Higgsfield: ~7 credits/sec of video (seedance_2_0 8s 720p = 36 cr). Test clip 1 job 94c6c7f6-d883-4ba6-b120-06f899a1901c — device matches photos except an invented clear flip lid (sec ~1–4); sec 4–8 brush close-up usable. Balance after: ~47 cr.
 Plan doc: https://claude.ai/code/artifact/58dd6880-1ce0-4057-8824-b1d359512caa ("ZALIN Beauty — Brush Cleaner Meta Ads Plan (Phase 1)").
 - Budget **under $1,000** first month → **Meta only**, one hero (Brush Cleaner). ~$30/day weeks 1–2, $30–45/day weeks 3–4 on winners, ~$100 reserve.
 - 1 campaign (Sales, Purchase event), 1 ad set (US, women 18–54, broad, Advantage+ placements), 5 ads = 5 scripts (gross reveal, time back, satisfying, gift/2-pack, honest review). Ad names `BC_<angle>_<hook>_v1`; UTMs `utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}`.
