@@ -133,3 +133,9 @@ Before snapshot: versions/v1.24-footer/footer-menu-before.json. Rollback: menuUp
 - Footer menu item "Terms & Conditions" (609881882816): PAGE /pages/terms-amp-conditions → SHOP_POLICY /policies/terms-of-service (44377571520). Custom page kept. Theme untouched (MAIN updatedAt unchanged).
 - Optional owner paste later: official ToS has raw URLs (with stray <meta charset>) instead of links, and one "customs" mention.
 Rollback: menuUpdate item back to type PAGE, resourceId gid://shopify/Page/124620275904.
+
+## v1.26 — 2026-10-20 — Audit item 19: footer Returns + Shipping links
+- Footer "Returns & Refunds" (609795178688): PAGE /pages/returns-refunds → SHOP_POLICY /policies/refund-policy (44377505984).
+- Footer "Shipping & Delivery" (609795211456): PAGE /pages/shipping-delivery → SHOP_POLICY /policies/shipping-policy (44377538752) (owner: "fix them").
+- All 4 policy links in the footer now go to the official Shopify policies. Custom pages kept. Theme untouched.
+Rollback: menuUpdate items back to PAGE 124565913792 / 124565782720 (see versions/v1.24-footer/footer-menu-before.json).
