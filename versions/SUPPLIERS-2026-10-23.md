@@ -128,3 +128,14 @@ Current: Zendrop $12.41 + ship (unknown; BeNat US supplier)
 | Yangjiang Hongstars (Alibaba) | Verified, TA, 13 yrs, 4.7 | $3.29–3.56, MOQ 3 | [listing](https://www.alibaba.com/product-detail/Long-Lasting-USB-Rechargeable-Electric-Eyelash_1601427335386.html) |
 | Shenzhen Weichenyang (Alibaba) | Verified, TA, 12 yrs, 4.6 | $5.42–7.25, MOQ 1 | [listing](https://www.alibaba.com/product-detail/24-Hours-Long-Lasting-Heated-Lash_1601184323253.html) |
 | Shenzhen Margotan (Alibaba) | Verified, TA | $4.99–6.50, MOQ 1–2 | [listing](https://www.alibaba.com/product-detail/USB-Rechargeable-Double-Heated-5-Level_1601517927760.html) |
+
+## Contact details (sample-order shortlist, from Made-in-China "Contact Info" pages, 2026-10-23)
+Phone/email are not published publicly — contact via "Contact Supplier / Send Inquiry" on Made-in-China (free buyer account). Pay only through MIC Secured Trading.
+
+| Supplier | For | Contact person | Own website | MIC storefront | Address (self-reported) |
+|---|---|---|---|---|---|
+| Yiwu Xuanying International | Brush Cleaner (HZ-006) | Mr. Allan Li, Sales Executive | https://www.ywsign.com/ | https://gluetraps.en.made-in-china.com/contact-info.html | Jiandong Street 302, Jinhua, Zhejiang (77 m² office — trader) |
+| ESHA Co., Limited | Brush Cleaner; Microcurrent | Miss Esha, Sales Dept Manager | http://www.eshabeauty.com/ | https://eshabeauty.en.made-in-china.com/contact-info.html | Rm 217, Unit 17, Bldg 7, Royal Fort Intl Industrial Park, Nanhai, Foshan, Guangdong |
+| Shenzhen Xiazhifeng Electronic (Pakiss) | Dual-Use Curler; Under-Eye | Mrs. M-Lisa | none listed | https://xiazhifeng-factory.en.made-in-china.com/contact-info.html | 4F, Bldg A2, Xinsheng Community Concept Space, Longgang, Shenzhen |
+| Market Union Co. | Dual-Use Curler; Brush Cleaner | Mr. Rex Xu, GM Houseware Division | http://www.mugroup.com.cn/en/ | https://houeware01.en.made-in-china.com/contact-info.html | No. 113 Qiushi Road, Beiyuan, Yiwu |
+| Suzhou Zhuwei Electrical | Under-Eye | (contact page did not load) | — | https://zhuweielectrical.en.made-in-china.com/ | Suzhou, Jiangsu |
